@@ -1,0 +1,120 @@
+.navbar{
+height: 100px;
+width: 100%;
+}
+.navbar h1{
+    float: left;
+    font-family: Pangolin;
+    color:cornflowerblue; 
+    margin-left:2em;
+    font-size:2em;
+}
+#list{ 
+    color: cornflowerblue;
+    display: flex;
+    list-style: none;
+    margin-top: 1.25em;
+    margin-right: 2em;
+    float: right;
+    font-size: 1.5em;
+    font-family: Pangolin;
+}
+ul a:hover{
+    text-shadow: 1px 1px lightskyblue;
+}
+a{
+    text-decoration-line: none;
+    color: cornflowerblue;
+}
+.brief{
+    /* margin-top: 50%; */
+    position:absolute;
+    margin-left:10% ;
+    margin-top:9.5% ;
+    display: block;
+    font-size:1.5em;
+}
+.Message{
+    position:absolute;
+    margin-left:8% ;
+    /* margin-top:2% ; */
+    display: block;
+    font-size:1.5em;
+}
+.illustration{
+    margin-left:50%;
+    /* margin-top: 50%; */
+    position: relative;
+}
+.form-control{
+    background:none;
+    border:none;
+    outline: none;
+    border-bottom:2px solid cornflowerblue;
+    /* border-bottom-style: solid ; */
+    margin-top:4%;
+}
+input,textarea{
+    border:none;
+    outline: none;
+    width:100%;
+    font-size:1em;
+    font-family: Pangolin;
+    color: cornflowerblue;
+    /* border-bottom:2px solid cornflowerblue; */
+}
+input:hover,textarea:hover{
+    background:#eeeeee;
+}
+table,tr,td{
+    border:2px solid cornflowerblue;
+    padding: 3px;
+}
+.about{
+    color:cornflowerblue;
+}
+.about p{
+    font-size:1.5em;
+}
+#left{
+    margin-left:20%;
+    margin-top:2.5%;
+    position: absolute;
+}
+#right{
+    margin-left:70%;
+    position: relative;
+    margin-top:5%;
+}
+#btn1{
+    margin-top: 4%;
+    background-color: cornflowerblue;
+    color: white;
+    border:2px solid black;
+    padding: 10px;
+    margin-right:3%;
+    font-size:18px;
+}
+#btn2{
+    background-color:white;
+    color: cornflowerblue;
+    border:2px solid black;
+    padding: 10px;
+    font-size:18px;
+}
+#btn1:hover,#btn2:hover{
+    /* font-family:Pangolin; */
+    box-shadow: 2px 2px black;
+}
+.project{
+    font: 2em Pangolin;
+    color: cornflowerblue;
+    text-align: center;
+    margin-top:12.5%;
+    margin-bottom:15%;
+    /* position: absolute; */
+}
+.social-icons{
+    margin-left:5em;
+    padding-right: 1em;
+}
