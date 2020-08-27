@@ -45,6 +45,7 @@ a{
     margin-left:50%;
     /* margin-top: 50%; */
     position: relative;
+    height: auto;
 }
 .form-control{
     background:none;
@@ -72,6 +73,8 @@ table,tr,td{
 }
 .about{
     color:cornflowerblue;
+    height: auto;
+    width: auto;
 }
 .about p{
     font-size:1.5em;
