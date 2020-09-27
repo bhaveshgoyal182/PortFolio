@@ -121,3 +121,6 @@ table,tr,td{
     margin-left:5em;
     padding-right: 1em;
 }
+html[theme='dark-mode'] {
+    filter: invert(1) hue-rotate(180deg);
+}
